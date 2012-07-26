@@ -1,15 +1,4 @@
-/*!
- * jQuery - Spectragram v0.0.3 by Adrian Quevedo
- * http://lab.adrianquevedo.com/jquery-spectragram
- * 
- * Copyright (c) 2012, Adrian Quevedo
- * Dual licensed under the MIT or GPL Version 2 licenses. 
- * 
- * This plugin uses the Instagram(tm) API and is not endorsed or certified by Instagram or Burbn, inc. 
- * All Instagram(tm) logos and trademarks displayed on this plugin are property of Burbn, Inc. 
- * 
- * Date: Thu Jul 26 16:31:48 2012 -0500
- */
+/* Copyright (c) 2012 Adrian Quevedo; Licensed MIT, GPL */
 
 // Utility for older browsers
 if (typeof Object.create !== 'function') {
@@ -130,11 +119,11 @@ if (typeof Object.create !== 'function') {
 		
 		if(jQuery.fn.spectragram.accessData.clientID){
 		
-			this.each( function () {
+			return this.each( function () {
 				var instagram = Object.create( Instagram );
 				instagram.init( options, this );		
 				if( instagram[method] ) { 
-					return instagram[method]( this );
+					instagram[method]( this );
 				}else{ 
 					$.error( 'Method ' + method + ' does not exist on jQuery.spectragram' );
 				}

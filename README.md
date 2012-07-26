@@ -136,6 +136,14 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 v0.02 (2012-Jul-15) - Added accessData method to manage once all Instagram credentials.   
 v0.01 (2012-Jul-04) - Release
 
+#Contributing
+In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [grunt](https://github.com/cowboy/grunt).
+
+### Important notes
+Please don't edit files in the main directory as they are generated via grunt. You'll find source code in the `src` subdirectory!
+
+While grunt can run the included unit tests via PhantomJS, this shouldn't be considered a substitute for the real thing. Please be sure to test the `test/*.html` unit test file(s) in _actual_ browsers.
+
 #Further notes
 Developed by [Adrian Quevedo](http://adrianquevedo.com) at Núcleo Digital S.A.S, in Bogotá - Colombia.
 

@@ -1,0 +1,33 @@
+{
+  "name": "spectragram",
+  "title": "jQuery - Spectragram",
+  "description": "A jQuery plugin using the Instagram API to fetch and display user, popular or tags photo feeds inside a list or any container you define.",
+  "version": "0.0.3",
+  "homepage": "http://lab.adrianquevedo.com/jquery-spectragram",
+  "author": {
+    "name": "Adrian Quevedo",
+    "email": "hello@adrianquevedo.com",
+    "url": "http://adrianquevedo.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adrianengine/jquery-spectragram.git"
+  },
+  "bugs": {
+    "url": "https://github.com/adrianengine/jquery-spectragram/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://lab.adrianquevedo.com/jquery-spectragram/blob/master/LICENSE-MIT"
+    },
+    {
+      "type": "GPL",
+      "url": "http://lab.adrianquevedo.com/jquery-spectragram/blob/master/LICENSE-GPL"
+    }
+  ],
+  "dependencies": {
+    "jquery": "1.7.2"
+  },
+  "keywords": [ "Instagram API", "photo feed", "gallery", "open source", "spectragram", "Instagram gallery", "Instagram"]
+}

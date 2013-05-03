@@ -88,6 +88,17 @@ if (typeof Object.create !== 'function') {
 					};
                 });
         },
+        
+        //Feed
+        //Get user feed
+        getOwnFeed: function() {
+            var self = this,
+                getData = '/users/self/feed?access_token='+ self.accessData.accessToken + '';
+                
+                self.fetch(getData).done(function ( results ) {
+                    self.display(results);
+                });
+        },        
 
         fetch: function (getData) {
             var self = this,
